@@ -5,12 +5,12 @@
 class Contentfulproxy < Formula
   desc "An experimental proxy for read access to contentful to save your API quota"
   homepage "https://github.com/foomo/contentfulproxy"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/foomo/contentfulproxy/releases/download/v0.1.1/contentfulproxy_0.1.1_darwin_amd64.tar.gz"
-      sha256 "7cf07428ebe05d5ac92a54ccc3780cdd898de3cc97d60e34422df46bcd522707"
+      url "https://github.com/foomo/contentfulproxy/releases/download/v0.1.2/contentfulproxy_0.1.2_darwin_amd64.tar.gz"
+      sha256 "21b38be386da60e153cc348230f84d97ca0ea91fc67bdf70ad082bb0452fa6c7"
 
       def install
         bin.install "contentfulproxy"
@@ -20,8 +20,8 @@ class Contentfulproxy < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/foomo/contentfulproxy/releases/download/v0.1.1/contentfulproxy_0.1.1_linux_amd64.tar.gz"
-      sha256 "f0a91b1f9b1cc32e6849f1cc02b9dd9b18edd410611c9a159282bc405276cdf2"
+      url "https://github.com/foomo/contentfulproxy/releases/download/v0.1.2/contentfulproxy_0.1.2_linux_amd64.tar.gz"
+      sha256 "9bb1489752c75026b042a9946f3e7cbfa0d2e4e190fb3ab880c1d8e0ab7aee8e"
 
       def install
         bin.install "contentfulproxy"
